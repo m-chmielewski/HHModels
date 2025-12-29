@@ -3,6 +3,6 @@
 
 public struct Product: Identifiable {
  public let id: Int
- let name: String
- let categoryId: Int
+ public let name: String
+ public let categoryId: Int
 }
